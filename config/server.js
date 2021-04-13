@@ -3,7 +3,13 @@ module.exports = ({ env }) => ({
   port: env.int('PORT'),
   admin: {
     auth: {
-      secret: env('ADMIN_JWT_SECRET', 'bff75f18744f1870cc0eb9156c971e32'),
+      secret: env('ADMIN_JWT_SECRET', `${process.env.ADMIN_JWT_SECRET}`),
+    },
+  },
+  webhooks: {
+    defaultHeaders: {
+      Authorization: `Bearer ${process.env.WEBHOOK_TOKEN}`,
+      Accept: 'application/vnd.github.v3+json',
     },
   },
 });
