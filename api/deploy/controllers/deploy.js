@@ -29,5 +29,6 @@ module.exports = {
         // Handle error.
         console.log("An error occurred:", error.response);
       });
+      return 'Deploy dispatched';
   },
 };
