@@ -10,7 +10,11 @@ module.exports = {
   async dispatch(ctx) {
     const accept =
       ctx.request.headers.accept || "application/vnd.github.v3+json";
-    const url = `${process.env.GIT_DEPLOY_ACTION_URL}`;
+
+    const reqUrl = ctx.request.url;
+    const env = reqUrl.includes('env') ? reqUrl.substr(reqUrl.search('env') + 4).toLowerCase() : '';
+
+    const url = env === 'prod'? `${process.env.GIT_DEPLOY_ACTION_URL}` : `${process.env.GIT_TEST_DEPLOY_ACTION_URL}` ;
     const data = { ref: "main" };
     const config = {
       headers: {
