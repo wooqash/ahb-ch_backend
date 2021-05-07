@@ -2,26 +2,37 @@
   "collectionName": "components_shared_seos",
   "info": {
     "name": "Seo",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "metaTitle": {
       "type": "string",
-      "required": true
+      "required": true,
+      "maxLength": 60
     },
     "metaDescription": {
       "type": "text",
+      "required": true,
+      "maxLength": 155
+    },
+    "metaKeywords": {
+      "type": "text"
+    },
+    "preventIndexing": {
+      "type": "boolean",
+      "default": false,
       "required": true
     },
-    "shareImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
+    "sharedImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.shared-image"
+    },
+    "cannonicalLink": {
+      "type": "string",
+      "regex": "^(https?:\\/\\/)?([\\da-z\\.-]+\\.[a-z\\.]{2,6}|[\\d\\.]+)([\\/:?=&#]{1}[\\da-z\\.-]+)*[\\/\\?]?$"
     }
   }
 }
