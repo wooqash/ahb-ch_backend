@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_newsletter_forms",
+  "info": {
+    "name": "NewsletterForm",
+    "icon": "envelope-open-text"
+  },
+  "options": {},
+  "attributes": {
+    "UsernameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "EmailLabel": {
+      "type": "string",
+      "required": true
+    },
+    "SubscribeButtonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "RequiredFieldErrorMsg": {
+      "type": "string"
+    },
+    "InvalidFieldErrorMsg": {
+      "type": "string"
+    }
+  }
+}
