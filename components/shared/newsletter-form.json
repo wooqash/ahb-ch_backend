@@ -1,27 +1,28 @@
 {
   "collectionName": "components_shared_newsletter_forms",
   "info": {
-    "name": "NewsletterForm",
-    "icon": "envelope-open-text"
+    "name": "newsletterForm",
+    "icon": "envelope-open-text",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "UsernameLabel": {
+    "usernameLabel": {
       "type": "string",
       "required": true
     },
-    "EmailLabel": {
+    "emailLabel": {
       "type": "string",
       "required": true
     },
-    "SubscribeButtonLabel": {
+    "subscribeButtonLabel": {
       "type": "string",
       "required": true
     },
-    "RequiredFieldErrorMsg": {
+    "requiredFieldErrorMsg": {
       "type": "string"
     },
-    "InvalidFieldErrorMsg": {
+    "invalidFieldErrorMsg": {
       "type": "string"
     }
   }
