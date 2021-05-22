@@ -2,28 +2,55 @@
   "kind": "collectionType",
   "collectionName": "articles",
   "info": {
-    "name": "article"
+    "name": "article",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
   },
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "publishedAt": {
       "type": "datetime",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "status": {
       "type": "enumeration",
@@ -32,7 +59,12 @@
         "published"
       ],
       "required": true,
-      "default": "draft"
+      "default": "draft",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
       "type": "uid",
@@ -52,7 +84,12 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "author": {
       "via": "articles",
