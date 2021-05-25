@@ -15,18 +15,17 @@
       "repeatable": false,
       "component": "shared.newsletter-form"
     },
-    "confiramtionReminder": {
-      "type": "text"
-    },
-    "repeatConfirmationReminder": {
-      "type": "text"
-    },
     "clause": {
-      "type": "text"
+      "type": "richtext"
+    },
+    "confiramtionReminder": {
+      "type": "richtext"
     },
     "offerSummary": {
-      "type": "text",
-      "required": false
+      "type": "richtext"
+    },
+    "repeatConfirmationReminder": {
+      "type": "richtext"
     }
   }
 }
