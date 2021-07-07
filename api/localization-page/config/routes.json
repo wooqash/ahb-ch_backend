@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/localization-page",
+      "handler": "localization-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/localization-page",
+      "handler": "localization-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/localization-page",
+      "handler": "localization-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
