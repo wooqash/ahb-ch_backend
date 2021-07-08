@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "MainText": {
+    "mainText": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -25,7 +25,7 @@
       "type": "richtext",
       "required": true
     },
-    "UKbuttonLabel": {
+    "ukButtonLabel": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -34,7 +34,7 @@
       "type": "string",
       "required": true
     },
-    "CHbuttonLabel": {
+    "chButtonLabel": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -43,7 +43,7 @@
       "type": "string",
       "required": true
     },
-    "Seo": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
