@@ -62,16 +62,6 @@
       },
       "type": "string",
       "required": true
-    },
-    "logo": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.logo"
     }
   }
 }
