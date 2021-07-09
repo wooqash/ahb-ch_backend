@@ -25,14 +25,19 @@
       "default": false,
       "required": true
     },
-    "sharedImage": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.shared-image"
-    },
     "cannonicalLink": {
       "type": "string",
-      "regex": "^(https?:\\/\\/)?([\\da-z\\.-]+\\.[a-z\\.]{2,6}|[\\d\\.]+)([\\/:?=&#]{1}[\\da-z\\.-]+)*[\\/\\?]?$"
+      "regex": "/^(https?:\\/\\/)?([\\da-z\\.-]+\\.[a-z\\.]{2,6}|[\\d\\.]+)([\\/:?=&#]{1}[\\da-z\\.-]+)*[\\/\\?]?/gi"
+    },
+    "ogImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
