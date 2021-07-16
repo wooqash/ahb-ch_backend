@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_link_buttons",
+  "info": {
+    "name": "LinkButton",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
