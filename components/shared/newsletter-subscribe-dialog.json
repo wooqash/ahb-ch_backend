@@ -8,24 +8,30 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "form": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.newsletter-form"
+      "component": "shared.newsletter-form",
+      "required": true
     },
     "clause": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "confiramtionReminder": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "offerSummary": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "repeatConfirmationReminder": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
