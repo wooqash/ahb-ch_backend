@@ -28,7 +28,7 @@
     "fieldTooShortErrorMsg": {
       "type": "string"
     },
-    "filedTooBigErrorMsg": {
+    "fieldTooLongErrorMsg": {
       "type": "string"
     },
     "invalidEmailFormatErrorMsg": {
