@@ -65,6 +65,17 @@
           "localized": false
         }
       }
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.newsletter-form",
+      "required": true
     }
   }
 }

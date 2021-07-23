@@ -11,12 +11,6 @@
       "type": "string",
       "required": true
     },
-    "form": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.newsletter-form",
-      "required": true
-    },
     "clause": {
       "type": "richtext",
       "required": true
