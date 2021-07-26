@@ -9,29 +9,40 @@
   "attributes": {
     "nameLabel": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "emailLabel": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "subscribeButtonLabel": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "requiredFieldErrorMsg": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "invalidValueErrorMsg": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "fieldTooShortErrorMsg": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "fieldTooLongErrorMsg": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "invalidEmailFormatErrorMsg": {
+      "type": "string",
+      "required": true
+    },
+    "namePlaceholderMsg": {
+      "type": "string"
+    },
+    "emailPlaceholderMsg": {
       "type": "string"
     }
   }
