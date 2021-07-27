@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/custom-404-page",
+      "handler": "custom404-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/custom-404-page",
+      "handler": "custom404-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/custom-404-page",
+      "handler": "custom404-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
