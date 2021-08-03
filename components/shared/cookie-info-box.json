@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_cookie_info_boxes",
+  "info": {
+    "name": "cookieInfoBox",
+    "icon": "stroopwafel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cookieBannerText": {
+      "type": "richtext"
+    },
+    "settingsButtonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "acceptButtonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "settingsTitle": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cookie-tab",
+      "required": true,
+      "min": 1
+    },
+    "groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cookie-group",
+      "required": true,
+      "min": 1
+    }
+  }
+}

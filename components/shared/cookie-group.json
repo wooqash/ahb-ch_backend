@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_cookie_groups",
+  "info": {
+    "name": "cookieGroup",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

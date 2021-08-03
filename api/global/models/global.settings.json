@@ -76,6 +76,17 @@
       },
       "component": "shared.newsletter-form",
       "required": true
+    },
+    "cookieInfo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.cookie-info-box",
+      "required": true
     }
   }
 }
