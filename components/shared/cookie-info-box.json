@@ -8,7 +8,8 @@
   "options": {},
   "attributes": {
     "cookieBannerText": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "settingsButtonLabel": {
       "type": "string",
@@ -19,7 +20,8 @@
       "required": true
     },
     "settingsTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "tabs": {
       "type": "component",
@@ -34,6 +36,16 @@
       "component": "shared.cookie-group",
       "required": true,
       "min": 1
+    },
+    "acceptAllCookiesButtonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "acceptSelectedCookiesButtonLabel": {
+      "type": "string"
+    },
+    "acceptNecessaryCookiesButtonLabel": {
+      "type": "string"
     }
   }
 }
