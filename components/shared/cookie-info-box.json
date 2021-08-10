@@ -46,6 +46,16 @@
     },
     "acceptNecessaryCookiesButtonLabel": {
       "type": "string"
+    },
+    "cookieLblSingle": {
+      "type": "string",
+      "default": "cookie",
+      "required": true
+    },
+    "cookieLblPlural": {
+      "type": "string",
+      "required": true,
+      "default": "cookies"
     }
   }
 }
