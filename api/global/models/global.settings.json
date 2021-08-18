@@ -87,6 +87,15 @@
       },
       "component": "shared.cookie-info-box",
       "required": true
+    },
+    "backToMainPageButtonLabel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
     }
   }
 }
