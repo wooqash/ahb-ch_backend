@@ -86,7 +86,7 @@
         }
       },
       "component": "shared.cookie-info-box",
-      "required": true
+      "required": false
     },
     "backToMainPageButtonLabel": {
       "pluginOptions": {
@@ -94,8 +94,7 @@
           "localized": true
         }
       },
-      "type": "string",
-      "required": false
+      "type": "string"
     }
   }
 }

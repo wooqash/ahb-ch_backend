@@ -44,6 +44,9 @@
     },
     "emailPlaceholderMsg": {
       "type": "string"
+    },
+    "unhandledExeptionLabel": {
+      "type": "string"
     }
   }
 }
