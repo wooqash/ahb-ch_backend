@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "method": "POST",
+        "path": "/recaptcha",
+        "handler": "recaptcha.verify",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
