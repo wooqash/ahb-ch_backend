@@ -14,8 +14,7 @@
     },
     "metaDescription": {
       "type": "text",
-      "required": true,
-      "maxLength": 155
+      "required": true
     },
     "metaKeywords": {
       "type": "text"
