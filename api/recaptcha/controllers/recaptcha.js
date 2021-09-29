@@ -15,7 +15,7 @@ module.exports = {
       .post(url)
       .then((response) => {
         // Handle success.
-        return response.data;
+        return {data: response.data};
       })
       .catch((error) => {
         // Handle error.
