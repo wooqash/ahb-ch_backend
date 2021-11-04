@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_links_button_links",
+  "info": {
+    "name": "button-link",
+    "icon": "external-link-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    }
+  }
+}

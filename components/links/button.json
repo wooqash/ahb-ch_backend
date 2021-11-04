@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_links_buttons",
+  "info": {
+    "name": "button",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ],
+      "default": "primary"
+    }
+  }
+}
