@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_elements_logos",
+  "info": {
+    "name": "Logos",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "altText": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
