@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_text_section_with_ctas",
+  "info": {
+    "name": "Text section with action button",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "cta_label": {
+      "type": "string"
+    }
+  }
+}

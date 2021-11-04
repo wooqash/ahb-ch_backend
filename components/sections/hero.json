@@ -11,8 +11,10 @@
       "type": "string",
       "required": true
     },
-    "content": {
-      "type": "richtext"
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
     }
   }
 }

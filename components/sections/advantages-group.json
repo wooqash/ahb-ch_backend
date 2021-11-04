@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_advantages_groups",
+  "info": {
+    "name": "AdvantagesGroup",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "advantage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.advantage"
+    }
+  }
+}

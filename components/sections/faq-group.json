@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_faq_groups",
+  "info": {
+    "name": "FaqGroup",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "questionAndAnswer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.faq-item"
+    }
+  }
+}

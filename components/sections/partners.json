@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_partners",
+  "info": {
+    "name": "Partners",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
