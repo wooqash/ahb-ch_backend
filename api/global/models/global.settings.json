@@ -32,15 +32,6 @@
         }
       }
     },
-    "siteName": {
-      "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "defaultSeo": {
       "type": "component",
       "repeatable": false,
@@ -95,6 +86,27 @@
         }
       },
       "type": "string"
+    },
+    "mainNav": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.navbar",
+      "required": true
+    },
+    "footerMenu": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "layout.footer"
     }
   }
 }
