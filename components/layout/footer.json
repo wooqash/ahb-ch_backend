@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "caret-square-down"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.logos"
+    },
+    "copyrightText": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "component",
+      "required": true,
+      "repeatable": true,
+      "component": "elements.footer-section"
+    }
+  }
+}
