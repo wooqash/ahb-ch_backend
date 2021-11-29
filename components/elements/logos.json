@@ -1,8 +1,9 @@
 {
   "collectionName": "components_elements_logos",
   "info": {
-    "name": "Logos",
-    "icon": "file-image"
+    "name": "logos",
+    "icon": "file-image",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,11 +14,8 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
-    },
-    "altText": {
-      "type": "string"
     },
     "url": {
       "type": "string"
