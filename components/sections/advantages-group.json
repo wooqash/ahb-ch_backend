@@ -2,14 +2,16 @@
   "collectionName": "components_sections_advantages_groups",
   "info": {
     "name": "AdvantagesGroup",
-    "icon": "balance-scale-left"
+    "icon": "balance-scale-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "advantage": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.advantage"
+      "component": "elements.advantage",
+      "required": true
     }
   }
 }

@@ -8,6 +8,12 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "companiesLogos": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "links.icon-button-link"
     }
   }
 }

@@ -2,14 +2,24 @@
   "collectionName": "components_sections_faq_groups",
   "info": {
     "name": "FaqGroup",
-    "icon": "users"
+    "icon": "users",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "questionAndAnswer": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.faq-item"
+      "component": "elements.faq-item",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "moreBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
     }
   }
 }
