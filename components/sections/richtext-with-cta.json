@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_richtext_with_ctas",
+  "info": {
+    "name": "RichtextWithCta",
+    "icon": "indent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}

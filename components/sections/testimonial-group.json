@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_testimonial_groups",
+  "info": {
+    "name": "TestimonialsGroup",
+    "icon": "user-tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tile"
+    }
+  }
+}

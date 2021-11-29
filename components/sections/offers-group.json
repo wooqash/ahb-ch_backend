@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_offers_groups",
+  "info": {
+    "name": "OffersGroup",
+    "icon": "users-cog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "offerGroups": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "elements.offer"
+    }
+  }
+}
