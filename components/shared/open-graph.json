@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_shared_open_graphs",
+  "info": {
+    "name": "OpenGraph",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "url": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "website",
+        "image",
+        "video",
+        "audio",
+        "book",
+        "article",
+        "profile"
+      ],
+      "default": "website"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": [
+        "de_CH",
+        "pl_PL",
+        "en_GB"
+      ],
+      "default": "de_CH"
+    },
+    "fbAppId": {
+      "type": "string"
+    }
+  }
+}
