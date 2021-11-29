@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_twitter_card_summaries",
+  "info": {
+    "name": "TwitterCardSummary",
+    "icon": "laptop-medical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_shared_twitter_cards",
+  "info": {
+    "name": "TwitterCards",
+    "icon": "dove",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "type": "enumeration",
+      "enum": [
+        "summary",
+        "summary_large_image",
+        "app",
+        "player"
+      ],
+      "default": "summary",
+      "required": true
+    },
+    "app": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.twitter-card-app"
+    },
+    "player": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.twitter-card-player"
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
