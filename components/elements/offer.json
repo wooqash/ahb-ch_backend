@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_offers",
+  "info": {
+    "name": "Offer",
+    "icon": "shopping-basket"
+  },
+  "options": {},
+  "attributes": {
+    "groupName": {
+      "type": "string"
+    },
+    "offer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.tile"
+    }
+  }
+}

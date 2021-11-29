@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_nav_items",
+  "info": {
+    "name": "NavItem",
+    "icon": "stream",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navLevelLabel": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}
