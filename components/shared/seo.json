@@ -24,19 +24,28 @@
       "default": false,
       "required": true
     },
+    "preventFollowing": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
     "cannonicalLink": {
       "type": "string",
       "regex": "/^(https?:\\/\\/)?([\\da-z\\.-]+\\.[a-z\\.]{2,6}|[\\d\\.]+)([\\/:?=&#]{1}[\\da-z\\.-]+)*[\\/\\?]?/gi"
     },
-    "ogImage": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+    "metaTitleSuffix": {
+      "type": "string",
+      "default": "AHB Finance Management"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.open-graph"
+    },
+    "twitterCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.twitter-cards"
     }
   }
 }
