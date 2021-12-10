@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_list_items",
+  "info": {
+    "name": "ListItem",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

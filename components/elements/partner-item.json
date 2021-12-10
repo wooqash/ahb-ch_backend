@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_partner_items",
+  "info": {
+    "name": "PartnerItem",
+    "icon": "handshake"
+  },
+  "options": {},
+  "attributes": {
+    "partnerName": {
+      "type": "string",
+      "required": true
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "companyUrl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

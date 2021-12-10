@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_publications_groups",
+  "info": {
+    "name": "PublicationsGroup",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "publications": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "elements.publication-item"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "PUBLICATIONSGROUP"
+      ],
+      "default": "PUBLICATIONSGROUP",
+      "required": true,
+      "unique": false
+    }
+  }
+}
