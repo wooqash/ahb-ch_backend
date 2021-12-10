@@ -7,11 +7,23 @@
   },
   "options": {},
   "attributes": {
-    "advantage": {
+    "advantages": {
       "type": "component",
       "repeatable": true,
       "component": "elements.advantage",
       "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "ADVANTAGESGROUP"
+      ],
+      "default": "ADVANTAGESGROUP",
+      "required": true,
+      "unique": false
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

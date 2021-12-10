@@ -20,6 +20,14 @@
       "type": "component",
       "repeatable": false,
       "component": "links.button-link"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "FAQGROUP"
+      ],
+      "default": "FAQGROUP",
+      "required": true
     }
   }
 }

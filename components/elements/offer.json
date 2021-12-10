@@ -12,7 +12,12 @@
     "offer": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.tile"
+      "component": "elements.list-item"
+    },
+    "moreBtn": {
+      "type":"component",
+      "repeatable": false,
+      "component": "links.button-link"
     }
   }
 }

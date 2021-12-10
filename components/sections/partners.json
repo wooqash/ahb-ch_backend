@@ -9,11 +9,20 @@
     "title": {
       "type": "string"
     },
-    "companiesLogos": {
+    "partners": {
       "type": "component",
       "repeatable": true,
       "required": true,
-      "component": "links.icon-button-link"
+      "component": "elements.partner-item"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "PARTNERSGROUP"
+      ],
+      "default": "PARTNERSGROUP",
+      "required": true,
+      "unique": false
     }
   }
 }

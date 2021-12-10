@@ -11,10 +11,19 @@
       "type": "string",
       "required": true
     },
-    "CTA": {
+    "cta": {
       "type": "component",
       "repeatable": true,
       "component": "links.button-link"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "HERO"
+      ],
+      "default": "HERO",
+      "required": true,
+      "unique": false
     }
   }
 }

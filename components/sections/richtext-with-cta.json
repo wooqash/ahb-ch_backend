@@ -17,6 +17,15 @@
       "type": "component",
       "repeatable": false,
       "component": "links.button-link"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "RICHTEXTWITHCTA"
+      ],
+      "default": "RICHTEXTWITHCTA",
+      "required": true,
+      "unique": false
     }
   }
 }
