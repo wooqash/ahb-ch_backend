@@ -48,10 +48,10 @@
         "sections.hero",
         "sections.advantages-group",
         "sections.offers-group",
-        "sections.partners",
         "sections.testimonial-group",
         "sections.faq-group",
-        "sections.richtext-with-cta"
+        "sections.richtext-with-cta",
+        "sections.blog"
       ],
       "required": true
     },
