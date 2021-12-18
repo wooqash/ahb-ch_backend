@@ -12,6 +12,7 @@
     },
     "type": {
       "type": "enumeration",
+      "required": true,
       "enum": [
         "primary",
         "secondary"

@@ -21,11 +21,16 @@
     },
     "type": {
       "type": "enumeration",
+      "required": true,
       "enum": [
         "primary",
         "secondary"
       ],
       "default": "primary"
+    },
+    "ariaNewTabLabel": {
+      "type": "string",
+      "default": "Link opens in a new tab"
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_sections_richtext_with_ctas",
   "info": {
     "name": "RichtextWithCta",
-    "icon": "indent"
+    "icon": "indent",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,7 @@
     },
     "cta": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "links.button-link"
     },
     "type": {
