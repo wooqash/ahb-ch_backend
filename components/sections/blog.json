@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_blog",
+  "info": {
+    "name": "Blog",
+    "icon": "outdent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "BLOG"
+      ],
+      "required": true,
+      "default": "BLOG"
+    },
+    "moreBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}
