@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_collabolators_groups",
+  "info": {
+    "name": "CollabolatorsGroup",
+    "icon": "user-clock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "COLLABOLATORSGROUP"
+      ]
+    }
+  }
+}

@@ -51,7 +51,8 @@
         "sections.testimonial-group",
         "sections.faq-group",
         "sections.richtext-with-cta",
-        "sections.blog"
+        "sections.blog",
+        "sections.collabolators-group"
       ],
       "required": true
     },

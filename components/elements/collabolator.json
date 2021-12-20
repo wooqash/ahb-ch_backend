@@ -1,23 +1,28 @@
 {
-  "collectionName": "components_elements_partners_items",
+  "collectionName": "components_elements_collabolators",
   "info": {
-    "name": "PartnersItem",
-    "icon": "user-tie"
+    "name": "collabolator",
+    "icon": "user-check"
   },
   "options": {},
   "attributes": {
-    "partnerName": {
+    "collabName": {
       "type": "string",
       "required": true
     },
-    "companyName": {
-      "type": "string"
-    },
-    "descritpion": {
+    "collabDesc": {
       "type": "richtext",
       "required": true
     },
-    "parnterImage": {
+    "collabCompanyName": {
+      "type": "string"
+    },
+    "collabCompanyUrl": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    },
+    "collabImage": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -27,12 +32,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "companyUrl": {
-      "type": "component",
-      "repeatable": false,
-      "component": "links.link"
-    },
-    "companyLogo": {
+    "collabCompanyLogo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
