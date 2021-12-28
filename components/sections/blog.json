@@ -17,6 +17,7 @@
         "BLOG"
       ],
       "required": true,
+      "unique": false,
       "default": "BLOG"
     },
     "moreBtn": {
