@@ -19,6 +19,20 @@
       "required": true,
       "repeatable": true,
       "component": "elements.footer-section"
+    },
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.contact-info"
+    },
+    "legalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    },
+    "createdBy": {
+      "type": "richtext",
+      "required": false
     }
   }
 }
