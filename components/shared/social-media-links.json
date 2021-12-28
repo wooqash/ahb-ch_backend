@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_social_media_links",
+  "info": {
+    "name": "SocialMediaLinks",
+    "icon": "share-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.social-media-link",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_links_social_media_links",
+  "info": {
+    "name": "SocialMediaLink",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "youtube",
+        "linkedin",
+        "twitter",
+        "tiktok",
+        "snapchat",
+        "googleplus",
+        "pinterest",
+        "behance",
+        "dribble"
+      ],
+      "required": true
+    }
+  }
+}
