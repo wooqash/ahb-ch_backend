@@ -9,11 +9,20 @@
     "title": {
       "type": "string"
     },
+    "collabolators": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "elements.collabolator"
+    },
     "type": {
       "type": "enumeration",
       "enum": [
         "COLLABOLATORSGROUP"
-      ]
+      ],
+      "default": "COLLABOLATORSGROUP",
+      "required": true,
+      "unique": false
     }
   }
 }
