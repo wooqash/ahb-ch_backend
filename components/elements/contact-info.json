@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_contact_infos",
+  "info": {
+    "name": "contactInfo",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "companyAddress": {
+      "type": "string"
+    },
+    "companyPhoneNo": {
+      "type": "string"
+    },
+    "companyEmailAddress": {
+      "type": "string"
+    }
+  }
+}
