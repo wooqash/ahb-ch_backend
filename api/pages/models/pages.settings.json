@@ -52,7 +52,9 @@
         "sections.faq-group",
         "sections.richtext-with-cta",
         "sections.blog",
-        "sections.collabolators-group"
+        "sections.publications-group",
+        "sections.collabolators-group",
+        "sections.newsletter-form"
       ],
       "required": true
     },
