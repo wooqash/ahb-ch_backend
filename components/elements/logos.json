@@ -17,12 +17,10 @@
       "required": true,
       "pluginOptions": {}
     },
-    "url": {
-      "type": "string"
-    },
-    "newTab": {
-      "type": "boolean",
-      "default": false
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
     }
   }
 }

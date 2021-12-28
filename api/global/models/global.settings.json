@@ -98,7 +98,7 @@
       "component": "layout.navbar",
       "required": true
     },
-    "footerMenu": {
+    "footer": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -107,6 +107,16 @@
         }
       },
       "component": "layout.footer"
+    },
+    "socialMediaLinks": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.social-media-links"
     }
   }
 }
