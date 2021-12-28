@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_newsletter_forms",
+  "info": {
+    "name": "NewsletterForm",
+    "icon": "envelope",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "NEWSLETTERFORM"
+      ],
+      "default": "NEWSLETTERFORM",
+      "required": true
+    },
+    "modalInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.newsletter-subscribe-dialog"
+    }
+  }
+}
