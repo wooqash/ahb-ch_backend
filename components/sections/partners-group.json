@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_partners_groups",
+  "info": {
+    "name": "PartnersGroup",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "elements.partner"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "PARTNERSGROUP"
+      ],
+      "default": "PARTNERSGROUP",
+      "required": true,
+      "unique": false
+    }
+  }
+}

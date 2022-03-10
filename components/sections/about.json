@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sections_abouts",
+  "info": {
+    "name": "About",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "readMoreLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    },
+    "sideImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "ABOUT_SECTION"
+      ],
+      "default": "ABOUT_SECTION",
+      "required": true
+    }
+  }
+}

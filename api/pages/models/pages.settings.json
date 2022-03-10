@@ -53,8 +53,9 @@
         "sections.richtext-with-cta",
         "sections.blog",
         "sections.publications-group",
-        "sections.collabolators-group",
-        "sections.newsletter-form"
+        "sections.partners-group",
+        "sections.newsletter-form",
+        "sections.about"
       ],
       "required": true
     },
@@ -80,6 +81,20 @@
       ],
       "required": true,
       "default": "draft"
+    },
+    "appearance": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ],
+      "required": true,
+      "default": "light"
     }
   }
 }
