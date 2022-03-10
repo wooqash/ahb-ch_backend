@@ -30,9 +30,10 @@
       "repeatable": true,
       "component": "links.link"
     },
-    "createdBy": {
-      "type": "richtext",
-      "required": false
+    "creators": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.creator"
     }
   }
 }
