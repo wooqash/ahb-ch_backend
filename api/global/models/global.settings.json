@@ -117,6 +117,14 @@
         }
       },
       "component": "shared.social-media-links"
+    },
+    "skipToMainContentLabel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
