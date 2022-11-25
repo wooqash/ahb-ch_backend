@@ -57,7 +57,7 @@
         }
       }
     },
-    "form": {
+    "forms": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -65,7 +65,7 @@
           "localized": true
         }
       },
-      "component": "shared.newsletter-form",
+      "component": "shared.forms",
       "required": true
     },
     "cookieInfo": {

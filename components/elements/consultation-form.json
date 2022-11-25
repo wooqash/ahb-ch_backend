@@ -1,0 +1,94 @@
+{
+  "collectionName": "components_elements_consultation_forms",
+  "info": {
+    "name": "ConsultationForm",
+    "icon": "tasks"
+  },
+  "options": {},
+  "attributes": {
+    "nameSurnameLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Name and surname"
+    },
+    "nameSurnamePlaceholder": {
+      "type": "string",
+      "default": "John Smiths"
+    },
+    "emailLabel": {
+      "type": "string",
+      "required": true,
+      "default": "E-mail address"
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "default": "john.smiths@mail.de"
+    },
+    "phoneNoLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Phone number"
+    },
+    "phoneNoPlaceholder": {
+      "type": "string",
+      "default": "+00 000 000 000"
+    },
+    "consultationTypeLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Consultation type"
+    },
+    "consultationTypePlaceholder": {
+      "type": "string",
+      "default": "Choose the right type"
+    },
+    "consultationOptPhoneLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Phone"
+    },
+    "consultationOptPersonalLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Personal"
+    },
+    "consultationOptEmailLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Email"
+    },
+    "consultationDateLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Suggest a date"
+    },
+    "consultationDatePlaceholder": {
+      "type": "string",
+      "required": false,
+      "default": "DD/MM/YYYY"
+    },
+    "subjectLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Subject of consultation"
+    },
+    "subjectPlaceholder": {
+      "type": "string",
+      "default": "Enter the subject"
+    },
+    "descriptionLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Description"
+    },
+    "descriptionPlaceholder": {
+      "type": "string",
+      "default": "Enter short description"
+    },
+    "submitButtonLabel": {
+      "type": "string",
+      "required": true,
+      "default": "Send request"
+    }
+  }
+}

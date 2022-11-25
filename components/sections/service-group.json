@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_sections_service_groups",
+  "info": {
+    "name": "ServiceGroup",
+    "icon": "people-carry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serviceId": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "shadowTitle": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "servicesHeading": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "SERVICES"
+      ],
+      "default": "SERVICES",
+      "required": true
+    }
+  }
+}

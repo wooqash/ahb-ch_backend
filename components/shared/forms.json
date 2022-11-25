@@ -1,0 +1,120 @@
+{
+  "collectionName": "components_shared_forms",
+  "info": {
+    "name": "form",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "namePlaceholderMsg": {
+      "type": "string"
+    },
+    "nameSurnameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "nameSurnamePlaceholderMsg": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string",
+      "required": true
+    },
+    "emailPlaceholderMsg": {
+      "type": "string"
+    },
+    "invalidEmailFormatErrorMsg": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNoLabel": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNoPlaceholderMsg": {
+      "type": "string"
+    },
+    "consultationTypeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationTypePlaceholderMsg": {
+      "type": "string"
+    },
+    "consultationOptPhoneLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationOptPersonalLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationOptEmailLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationDateLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationDatePlaceholderMsg": {
+      "type": "string"
+    },
+    "consultationSubjectLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationSubjectPlaceholderMsg": {
+      "type": "string"
+    },
+    "consultationDescriptionLabel": {
+      "type": "string",
+      "required": true
+    },
+    "consultationDescriptionPlaceholderMsg": {
+      "type": "string"
+    },
+    "consultationSubmitLabel": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeButtonLabel": {
+      "type": "string",
+      "required": true
+    },
+    "requiredFieldsLabel": {
+      "type": "string",
+      "required": true
+    },
+    "requiredFieldErrorMsg": {
+      "type": "string",
+      "required": true
+    },
+    "invalidValueErrorMsg": {
+      "type": "string",
+      "required": true
+    },
+    "fieldTooShortErrorMsg": {
+      "type": "string",
+      "required": true
+    },
+    "fieldTooLongErrorMsg": {
+      "type": "string",
+      "required": true
+    },
+    "unhandledExeptionLabel": {
+      "type": "string"
+    },
+    "ariaValidMsg": {
+      "type": "string"
+    },
+    "ariaInvalidMsg": {
+      "type": "string"
+    }
+  }
+}

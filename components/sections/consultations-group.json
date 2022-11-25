@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_consultations_groups",
+  "info": {
+    "name": "ConsultationsGroup",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.intro-text-with-title",
+      "required": true
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.consultation-form",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "CONSULTATIONSGROUP"
+      ],
+      "default": "CONSULTATIONSGROUP",
+      "required": true,
+      "unique": false
+    }
+  }
+}

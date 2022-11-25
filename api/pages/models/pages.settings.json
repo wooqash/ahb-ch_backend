@@ -50,12 +50,13 @@
         "sections.offers-group",
         "sections.testimonial-group",
         "sections.faq-group",
-        "sections.richtext-with-cta",
         "sections.blog",
         "sections.publications-group",
         "sections.partners-group",
         "sections.newsletter-form",
-        "sections.about"
+        "sections.about",
+        "sections.service-group",
+        "elements.intro-text-with-title"
       ],
       "required": true
     },
